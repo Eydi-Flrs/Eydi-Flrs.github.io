@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.box-1, .box-2 {
+  height: 100vh;
+}
+
+.box-1 {
+  background-color: black;
+  color: white;
+}
+
+.box-1 a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.box-1 a:hover {
+  color: orangered;
+}
+
+.box-1 nav {
+  width: 100%;
+  height: 10%;
+  padding-top: 20px;
+}
+
+.box-1 .title {
+  width: 50%;
+  height: 50px;
+  /*background-color: aqua;pantingin ng box model*/
+  float: left;
+  padding-top: 10px;
+}
+
+.box-1 .title h1 {
+  margin: 0;
+  margin-left: 10%;
+  font-size: xx-large;
+}
+
+.box-1 .options {
+  width: 50%;
+  height: 50px;
+  /* background-color: aquamarine;pantingin ng box model*/
+  float: right;
+  text-align: right;
+}
+
+.box-1 .options ul {
+  margin-right: 10%;
+}
+
+.box-1 .options li {
+  display: inline;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.box-1 .showcase {
+  width: 100%;
+  height: 600px;
+  /*background-color: chocolate; pantingin ng box model*/
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.box-1 .showcase h1 {
+  text-align: center;
+}
+
+.box-1 .showcase .pic {
+  position: relative;
+  /*background-color: white;pantingin ng box model*/
+  width: 50%;
+  height: 510px;
+  margin: auto;
+}
+
+.box-1 .showcase .pic .flipic {
+  float: left;
+}
+
+.box-1 .showcase .pic .flipic img {
+  height: 500px;
+  margin-top: 5px;
+}
+
+.box-1 .showcase .pic .flipic #flip2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.box-1 .showcase .pic .flipic #flip2:hover {
+  opacity: 1;
+}
+
+.box-1 .showcase .pic .horpic {
+  float: right;
+}
+
+.box-1 .showcase .pic .horpic img {
+  height: 250px;
+  margin-top: 2px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.box-2 {
+  color: black;
+  position: relative;
+}
+
+.box-2 .collage {
+  width: 100%;
+  height: 80%;
+  /*background-color: aqua;pantingin ng box model*/
+  padding-top: 50px;
+}
+
+.box-2 .collage .bythree {
+  margin: auto;
+  height: 520px;
+  width: 780px;
+}
+
+.box-2 .collage .bythree img {
+  height: 250px;
+  margin: 2px;
+}
+
+.box-2 .quote {
+  /*background-color: aqua;pantingin ng box model*/
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding-top: 250px;
+}
+
+.box-2 .quote h3 {
+  text-align: right;
+}
+
+.box-2 .quotewidth {
+  width: 100%;
+  height: 600px;
+  /*background-color: aquamarine;pantingin ng box model*/
+}
+
+footer {
+  bottom: 20px;
+  text-align: center;
+}
+
+.aboutcontent {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: auto;
+  margin-bottom: auto;
+  /*background-color: aqua;pantingin ng box model*/
+}
+
+.aboutcontent .abwidth {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: aquamarine;pantingin ng box model*/
+}
+
+.aboutcontent .abwidth .profilepic {
+  float: left;
+  width: 30%;
+}
+
+.aboutcontent .abwidth .profilepic img {
+  height: 500px;
+  margin-top: 20px;
+}
+
+.aboutcontent .abwidth .phrases {
+  width: 40%;
+  float: right;
+  font-size: 22px;
+  margin-top: 45px;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  width: 60%;
+  background-color: orangered;
+  margin: auto;
+  margin-top: 200px;
+  font-size: larger;
+}
+
+.card .norm {
+  width: 50%;
+  float: left;
+}
+
+.card .social {
+  width: 50%;
+  float: right;
+}
+
+.card li {
+  line-height: 2;
+}
+
+.banner {
+  background: url("img/fly.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding-top: 100px;
+}
