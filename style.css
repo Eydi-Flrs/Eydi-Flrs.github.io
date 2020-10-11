@@ -71,7 +71,7 @@ h1 {
 
 .box-1 .showcase {
   width: 100%;
-  height: 600px;
+  height: 80%;
   /*background-color: chocolate; pantingin ng box model*/
   margin-top: auto;
   margin-bottom: auto;
@@ -85,26 +85,22 @@ h1 {
   position: relative;
   /*background-color: white;pantingin ng box model*/
   width: 50%;
-  height: 510px;
+  height: 90%;
   margin: auto;
+  padding-top: .2%;
 }
 
 .box-1 .showcase .pic .flipic {
   float: left;
+  width: 60%;
 }
 
 .box-1 .showcase .pic .flipic img {
-  height: 500px;
+  width:100%;
   margin-top: 5px;
 }
 
-.box-1 .showcase .pic .flipic #flip2 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  transition: 0.5s ease;
-}
+
 
 .box-1 .showcase .pic .flipic #flip2:hover {
   opacity: 1;
@@ -112,10 +108,12 @@ h1 {
 
 .box-1 .showcase .pic .horpic {
   float: right;
+  width: 30%;
+  margin-right: 9%;
 }
 
 .box-1 .showcase .pic .horpic img {
-  height: 250px;
+  width: 100%;
   margin-top: 2px;
 }
 
@@ -132,17 +130,19 @@ img {
   width: 100%;
   height: 80%;
   /*background-color: aqua;pantingin ng box model*/
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .box-2 .collage .bythree {
-  margin: auto;
-  height: 520px;
-  width: 780px;
+  margin:auto;
+  padding-left: 3%;
+  height: 100%;
+  /*background-color: aqua;*/
+  width: 60%;
 }
 
 .box-2 .collage .bythree img {
-  height: 250px;
+  width: 32%;
   margin: 2px;
 }
 
