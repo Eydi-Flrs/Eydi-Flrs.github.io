@@ -193,14 +193,14 @@ footer {
 
 .aboutcontent .abwidth .profilepic img {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 30px;
 }
 
 .aboutcontent .abwidth .phrases {
   width: 50%;
   float: right;
   font-size: 22px;
-  margin-top: 3%;
+  margin-top: 25px;
 }
 
 li {
