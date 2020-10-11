@@ -84,9 +84,10 @@ h1 {
 .box-1 .showcase .pic {
   position: relative;
   /*background-color: white;pantingin ng box model*/
-  width: 50%;
-  height: 90%;
+  width: 55%;
+  height: 80%;
   margin: auto;
+  margin-left: 25%;
   padding-top: .2%;
 }
 
@@ -172,7 +173,7 @@ footer {
 .aboutcontent {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 80%;
   margin-top: auto;
   margin-bottom: auto;
   /*background-color: aqua;pantingin ng box model*/
@@ -187,19 +188,19 @@ footer {
 
 .aboutcontent .abwidth .profilepic {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 
 .aboutcontent .abwidth .profilepic img {
-  height: 500px;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 5%;
 }
 
 .aboutcontent .abwidth .phrases {
-  width: 40%;
+  width: 50%;
   float: right;
   font-size: 22px;
-  margin-top: 45px;
+  margin-top: 3%;
 }
 
 li {
@@ -220,7 +221,7 @@ li {
 }
 
 .card .social {
-  width: 50%;
+  width: 40%;
   float: right;
 }
 
