@@ -166,8 +166,9 @@ img {
 }
 
 footer {
-  bottom: 20px;
+  bottom: 30px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .aboutcontent {
